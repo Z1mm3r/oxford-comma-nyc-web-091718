@@ -1,3 +1,19 @@
 def oxford_comma(array)
-
+  
+  output_string = ""
+  
+  case 
+    when array.size == 2 
+      output_string = array.join(" and ")
+    when array.size > 2
+      array.each_with_index do |element,index|
+      
+        if(index== output_string.size - 2)
+          
+        end
+        
+      end
+  
+  end
+  
 end
