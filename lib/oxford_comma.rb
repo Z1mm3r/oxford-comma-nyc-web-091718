@@ -12,6 +12,7 @@ def oxford_comma(array)
       
     when array.size > 2 
       array.each_with_index do |element,index|
+        temp
       tempHold = array[index]
         if(index == 1)
           output_string += tempHold.join("")
