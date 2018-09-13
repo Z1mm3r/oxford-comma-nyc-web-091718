@@ -14,7 +14,7 @@ def oxford_comma(array)
       array.each_with_index do |element,index|
       tempHold = []
       tempHold.push(array[index])
-        if(index == 1)
+        if(index == 0)
           output_string += tempHold.join("")
           
         elsif(index == output_string.size - 2)
