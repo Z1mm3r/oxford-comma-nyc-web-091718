@@ -3,8 +3,13 @@ def oxford_comma(array)
   output_string = ""
   
   case 
+  
+    when array.size < 2 
+          output_string = array.join("")
+  
     when array.size == 2 
       output_string = array.join(" and ")
+      
     when array.size > 2
       array.each_with_index do |element,index|
       
@@ -14,8 +19,6 @@ def oxford_comma(array)
           output_string += ", " + element
         end
       
-      
-        
       end
   
   end
