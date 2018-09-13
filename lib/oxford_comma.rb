@@ -12,13 +12,14 @@ def oxford_comma(array)
       
     when array.size > 2 do
       array.each_with_index |element,index|
+      {
       
         if(index == output_string.size - 2)
           output_string += ", and " + element
         else
           output_string += ", " + element
         end
-      end
+      }
       end
   
   end
