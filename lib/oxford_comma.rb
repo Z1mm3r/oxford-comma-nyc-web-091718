@@ -26,4 +26,6 @@ def oxford_comma(array)
   
   end
   
+  return output_string
+  
 end
