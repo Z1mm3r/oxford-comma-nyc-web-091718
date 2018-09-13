@@ -15,9 +15,9 @@ def oxford_comma(array)
       
       
         if(index == output_string.size - 2)
-          output_string += ", and " + element
+          output_string += ", and #{element}"
         else
-          output_string += ", " + element
+          output_string += ", #{element}""
         end
       
       end
