@@ -10,7 +10,7 @@ def oxford_comma(array)
     when array.size == 2 
       output_string = array.join(" and ")
       
-    when array.size > 2
+    when array.size > 2 do
       array.each_with_index do |element,index|
       
         if(index == output_string.size - 2)
@@ -18,7 +18,7 @@ def oxford_comma(array)
         else
           output_string += ", " + element
         end
-      
+      end
       end
   
   end
