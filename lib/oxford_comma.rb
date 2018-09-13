@@ -17,7 +17,7 @@ def oxford_comma(array)
         if(index == output_string.size - 2)
           output_string += ", and #{(tempHold = array[index]).join("")}"
         else
-          output_string += ", " 
+          output_string += ", #{(tempHold = array[index]).join("")}"
         end
       
       end
